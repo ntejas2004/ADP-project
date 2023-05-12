@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px 10px;
+    background-color: rgb(123, 118, 127);
+}
+.top{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    
+}
+
+.firstdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;    
+}
+
+.signin{
+    padding:10px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: aliceblue;
+    transition:0.4s ease-in;
+    cursor: pointer;
+    text-shadow: 50px;
+}
+.navlinks li{
+    display: inline-block;
+    padding:0px 10px;
+    padding-right: 0px 0px;
+    
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 130%;
+    
+}
+.logo{
+    width: 40%;
+    height: 10%;
+    padding-left: 0px;
+}
+.signin:hover{
+    background-color: rgb(55, 6, 247);
+    color: white;
+    font-size: 85%;
+}
+li:hover{
+    color: rgb(16, 226, 237);
+}
+.search{
+    background-color: white;
+    padding: 20px 300px;
+    border-radius: 50px;
+    box-shadow: 50px;
+    margin: 50px;
+    
+}
+.idli{
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+    float: left; 
+}
+.first{
+    font-size: 39px;
+    color: rgb(16, 13, 13);
+}
+.book{
+    padding:20px 10px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: rgb(238, 117, 117);
+    transition:0.4s ease-in;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    font-size: 50%;  
+    font-family: Georgia, 'Times New Roman', Times, serif;      
+}
+.book:hover{
+    font-size: 45%;
+    background-color: rgb(242, 150, 150);
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0) ;
+    font-size: 300%;
+}
+.dosa{
+    float: right;
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+}
+.bringe{
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+}
+.pongal{
+    float: right;
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+}
+.Hyderabadibriyani{
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+}
+.tandoori{
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+}
+.freid{
+    float: right;
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+}
+.muttonrice{
+    float: right;
+    width: 30%;
+    padding-left: 50px;
+    margin: 0px 0px;
+}
+#footer{
+    background-color: #000000;
+}
+.rowfoot{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+.colfoot{
+    font-family: cursive;
+    color: #fff;
+    padding-top: 25px;
+    font-size: 80%;
+}
+.colfoot h2{
+    font-family: 'Castoro Titling', cursive;
+    font-size: 200%;
+}
+.colfoot a{
+    text-decoration: none;
+    color: #fff;
+}
+.colfoot i:hover{
+    color: aqua;
+}
+.colfoot:hover{
+    color: rgb(232, 173, 97);
+}
+.copyfoot{
+    color: white;
+    font-size: 110%;
+    text-align: center;
+    background-color: #0d0a0a;
+}
+.copyfoot p{
+    color: aqua;
+}
+.add{
+    padding:20px 10px;
+    border-radius: 20px;
+    width: 120px;
+    background-color: rgb(138, 161, 161);
+    transition:0.4s ease-in;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    font-size: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.add:hover{
+    background-color: rgb(99, 154, 154);
+    font-size: 45%;
+    
+}
